@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PurchaseFlowTest</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c58a25c1-e85b-41e9-8287-8d3f4c536a02</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>Default execution profile for AppDistribution Website testing</description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Base URL of the application under test</description>
+      <initValue>'http://localhost:3000'</initValue>
+      <name>baseUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>API base URL for backend services</description>
+      <initValue>'http://localhost:4000/api'</initValue>
+      <name>apiBaseUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Valid test user email</description>
+      <initValue>'cutorasusu2004@Gmail.com'</initValue>
+      <name>validEmail</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Valid test user password (encrypted)</description>
+      <initValue>'7324*Tan'</initValue>
+      <name>validPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Admin user email</description>
+      <initValue>'cutorasusu2004@Gmail.com'</initValue>
+      <name>adminEmail</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Admin user password (encrypted)</description>
+      <initValue>'7324*Tan'</initValue>
+      <name>adminPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Developer user email</description>
+      <initValue>'developer@example.com'</initValue>
+      <name>developerEmail</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Developer user password (encrypted)</description>
+      <initValue>'DevPassword123!'</initValue>
+      <name>developerPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Valid coupon code for testing</description>
+      <initValue>'DISCOUNT10'</initValue>
+      <name>validCouponCode</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Global timeout in seconds for element waits</description>
+      <initValue>10</initValue>
+      <name>globalTimeout</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Browser type (Chrome, Firefox, Edge)</description>
+      <initValue>'Chrome'</initValue>
+      <name>browser</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Screenshot output directory</description>
+      <initValue>'Reports/Screenshots'</initValue>
+      <name>screenshotDir</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PaymentMethodsTest</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>94aab0a7-06e3-4404-9b53-f1c5b77d7882</testCaseGuid>
+</TestCaseEntity>
